@@ -1,0 +1,22 @@
+    1  cd do
+    2  cd downloads/
+    3  mkdir profile
+    4  cd profile/
+    5  code .
+    6  git branch -m main
+    7  git commit -m "README file uploaded"
+    8  git push origin main
+    9  git push origin main
+   10  git commit --amend -m "message updated"
+   11  git push origin main -f
+   12  git add README.md
+   13  git commit -m "READme file updated"
+   14  git push origin main
+   15  git add README.md
+   16  git commit -m "READme file updated again"
+   17  git push origin main
+   18  git switch -c "master"
+   19  ls
+   20  cat README.md
+   21  touch varsha.txt
+   22  history>>varsha.txt
